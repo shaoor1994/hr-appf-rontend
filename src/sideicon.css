@@ -1,0 +1,24 @@
+/* styles.css */
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .side-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .side-icon i {
+    color: #333;
+    font-size: 20px;
+  }
+  
