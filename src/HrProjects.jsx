@@ -391,7 +391,7 @@ const Projects = () => {
             <tr key={project.id}>
               <td>{project.projectname}</td>
               <td>{project.developername}</td>
-              <td>{project.teamLead ? project.teamLead.name : 'N/A'}</td> Use optional chaining to avoid undefined error
+              <td>{project.teamLead ? project.teamLead.name : 'N/A'}</td> //Use optional chaining to avoid undefined error
               <td>
                 <button className="btn btn-primary btn-sm" onClick={() => updateProject(project.id)}>
                   Edit
