@@ -742,6 +742,9 @@
 // };
 
 // export default Projects;
+
+
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
@@ -956,6 +959,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
-
